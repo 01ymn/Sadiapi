@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ocrsadi2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4876249A4C99404095035C78602DFE1C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A55F3E33A14342098DDA1AE105E2D81D }}
