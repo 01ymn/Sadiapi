@@ -248,7 +248,7 @@ def taritement():
                 "Total" : total
                 }
             return resultas
-        return jsonify({"resultats " : confidence(Facture,Date_time,Num_client,str(Total),réf_client), "mytab" : Table_using})
+        return jsonify({"resultats " : confidence(Facture,Date_time,Num_client,str(Total),réf_client), "mytab" : Table_using[0]})
     except:
         return jsonify({'message' : 'ocr nonFunctional'})
     #done
